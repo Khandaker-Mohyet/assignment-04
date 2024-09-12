@@ -3,8 +3,8 @@ function calculateTax(income, expenses) {
     return "Invalid Input";
   }
   else {
-  difference = income - expenses;
-  tex = difference * .20;
+  let difference = income - expenses;
+  let tex = difference * .20;
   return tex;
   }
   
